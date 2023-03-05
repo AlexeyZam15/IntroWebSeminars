@@ -1,0 +1,87 @@
+.content {
+    color: rgb(40, 40, 40);
+    font-family: 'Sunday', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(208, 31, 0);
+    animation: background 5s infinite alternate;
+}
+
+@keyframes background {
+    50% {
+      background: rgb(0, 183, 255);
+    }
+}
+
+@font-face {
+	font-family: 'Sunday';
+	src: url('fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+h1 {
+    margin-top: 0px;
+    font-size: 4rem;
+    border: 3px solid black; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    text-align: center;
+    width: 1500px;
+    margin-left: -100px;
+    background-color: rgb(96, 0, 186);
+    height: 100px;
+}
+
+h2 {
+    margin-top: -35px;
+    font-size: 2rem;
+    border: 3px solid black; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    text-align: center;
+    width: 1500px;
+    margin-left: -100px;
+    background-color: rgb(37, 186, 0);
+    height: 50px;
+}
+
+p {
+    font-size: 1.5rem;
+    border: 3px solid black; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    text-align: center;
+    width: 1500px;
+    margin-left: -100px;
+    background-color: rgb(188, 188, 188);
+    height: 30px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.bit {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: .25rem;
+  }
+
+.row {
+    border: 3px solid black; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+    background-color: rgb(188, 188, 188);
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: black; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+   }
