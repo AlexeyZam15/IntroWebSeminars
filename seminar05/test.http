@@ -1,0 +1,14 @@
+GET https://nalog.ru
+
+###
+
+GET http://reqres.in/api/users?page=1
+
+###
+POST https://reqres.in/api/users
+Content-Type: application/json
+
+{
+  "name": "morpheus",
+  "job": "leader"
+}

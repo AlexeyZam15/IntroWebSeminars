@@ -1,0 +1,16 @@
+[
+  {
+    "product": "яблоки",
+    "weight": 1000,
+    "category": "фрукты",
+    "price": 150,
+    "warehouse_number": 1
+  },
+  {
+    "product": "апельсины",
+    "weight": 1200,
+    "category": "фрукты",
+    "price": 200,
+    "warehouse_number": 2
+  }
+]
